@@ -1,0 +1,19 @@
+Application Load Balancer Configuration
+
+Name: web-alb
+Type: Application Load Balancer
+Scheme: Internet-facing
+Region: us-east-1
+
+Subnets:
+- subnet-088697b1d5037a6d8
+- subnet-0ea5adeb6e7f33316
+
+Security Group:
+- sg-05ff2f3abe90855dc
+
+DNS Name:
+web-alb-1415714975.us-east-1.elb.amazonaws.com
+
+Status:
+Active (confirmed via successful curl response)

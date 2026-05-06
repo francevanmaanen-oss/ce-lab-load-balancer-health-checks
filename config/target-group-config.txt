@@ -1,0 +1,19 @@
+Target Group Configuration
+
+Name: web-servers-tg
+Protocol: HTTP
+Port: 80
+VPC: vpc-08e15a38fd9006cca
+
+Registered Targets:
+- i-09cfa99fa408da7b9
+- i-0ddd11efe2c9a5802
+- i-00c27fd73c9feaa6d
+
+Initial Target Health:
+State: unused
+Reason: Target.NotInUse
+Description: Target group not yet attached to load balancer
+
+After Listener Creation:
+Targets received traffic successfully (confirmed via curl)

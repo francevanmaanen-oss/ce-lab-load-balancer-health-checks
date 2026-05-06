@@ -1,0 +1,14 @@
+Listener Configuration
+
+Protocol: HTTP
+Port: 80
+
+Default Action:
+Forward traffic to target group:
+- web-servers-tg
+
+Stickiness:
+Disabled
+
+Listener ARN:
+arn:aws:elasticloadbalancing:us-east-1:845587649055:listener/app/web-alb/02ba20c7c1dba123/17663424f7f34c85

@@ -1,0 +1,16 @@
+Health Check Configuration
+
+Protocol: HTTP
+Path: /health
+Port: 80
+
+Interval: 10 seconds
+Timeout: 5 seconds
+Healthy Threshold: 2
+Unhealthy Threshold: 2
+
+Expected Response:
+HTTP 200 OK
+
+Observation:
+Health checks were configured but full validation was incomplete due to lab interruption.
